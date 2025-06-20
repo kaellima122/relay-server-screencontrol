@@ -1,3 +1,5 @@
+// Forçando a atualização para o Render - 20 de Junho de 2025
+
 const net = require('net');
 
 // O Render.com vai fornecer a porta certa através de uma variável de ambiente.
@@ -77,3 +79,4 @@ const server = net.createServer(socket => {
 server.listen(PORT, '0.0.0.0', () => {
     console.log(`[OK] Servidor de Relay a ouvir na porta ${PORT}`);
 });
+// Alteracao forcada via terminal
